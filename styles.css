@@ -8,11 +8,12 @@
 }
 
 .wrapper{
-    margin-left: 24px;
-    margin-right: 24px;
+    margin-left: 6%;
+    margin-right: 6%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
 }
 
 body{
@@ -116,11 +117,12 @@ header{
     font-size: 16px;
     line-height: 22px;
     width: 326px;
-    height: 66px;
+    height: 76px;
     text-align: center;
     color: #FFFFFF;
     opacity: 0.8;
     margin-top: 16px;
+   
 }
 
 .circles{
@@ -340,4 +342,651 @@ header{
     line-height: 16px;
    
     color: #FFFFFF; 
+}
+
+
+.line3{
+    margin-top: 32px;
+    border: 2px solid #2E2E2E;
+}
+
+.headerport{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 47px; 
+    color: #26C2AD;
+    text-align: center;
+}
+
+
+.portfolioss h4{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 150px;
+    margin-left: 24px;
+    margin-top: 24px;
+}
+
+.portfolioss{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.workinfos{
+    width: 317px;
+    height: 64px;
+    margin-left: 24px;
+    margin-top: 16px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    color: #ACACAC;
+}
+
+.line4{
+    border: 2px solid #2E2E2E;
+    margin-top: 72px;
+}
+
+.q{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 47px;
+    color: #26C2AD;
+    width: 100%;
+    text-align: center;
+}
+
+.QA h1{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.QA p{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    color: #ACACAC;
+}
+
+footer{    
+    width: 100%;
+    background: #111111;
+    margin-top: 62px;
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+   
+}
+
+.line5{
+    width: 327px;
+    display: flex;
+    align-self: center;
+    
+    border: 2px solid #333333;
+    margin-top: 8px;
+}
+
+.footerinfos p{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #373737;
+}
+
+.footerinfos{
+    margin-top: 16px;
+    display: flex;
+    margin-left: 24px;
+    margin-right: 24px;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 16px;
+}
+
+.twokl{
+    display: none;
+}
+.wid{
+    width: 327px;
+}
+
+.logomobile{
+    display: none;
+}
+
+
+.nonemob{
+    display: none;
+}
+
+.fordesk{
+    display: none;
+
+}
+
+.me2{
+    display: none;
+}
+
+.abshape2{
+    display: none;
+}
+
+.me2butdesktop{
+    display: none;
+}
+
+.diffcircle{
+    display: none;
+}
+
+.no{
+    display: none;
+}
+
+
+
+
+
+
+
+@media  screen and (min-width: 1040px) {
+ 
+    .logopng{
+        display: none;
+    }
+
+    .logomobile{
+        display: block;
+    }
+
+    .fordesk{
+        display: block;
+    }
+
+    .abshape2{
+        display: block;
+    }
+
+    .infos p{
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 33px;
+        color: #FFFFFF;
+        opacity: 0.9;
+    
+    }
+
+    .infos{
+        column-gap: 48px;
+    }
+
+    .btnh{
+        width: 164px;
+        height: 53px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    .line{
+        display: none;
+    }
+
+
+    .me2butdesktop{
+        display: block;
+    }
+    .abshape2{
+        transform: translate(-65%, -10%);
+    }
+
+    .me2{
+        transform: translate(-70%, -114%);
+        display: block;
+    }
+
+    .no{
+        display: block;
+    }
+
+
+    .twosided{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .abshape{
+        display: none;
+    }
+
+    .me{
+        display: none;
+    }
+
+    .line2{
+        display: none;
+    }
+
+    .personal{
+        margin-top: 184px;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .hi{
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 44px;
+    }
+
+    .patiko{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 95px;
+    }
+
+    .junior{
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    .knowledge{
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 33px;
+        text-align: start;
+        width: 496px;
+        height: 132px;
+    }
+
+    .talkPort{
+        margin-top: 16px;
+        display: block;
+        display: flex;
+        align-items: center;
+    }
+
+    .lets{
+        background: #26C1AD;
+        border-radius: 15px;
+        width: 164px;
+        height: 53px;
+        border: none;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    .threeimg{
+        margin-top: 132px;
+        width: 260px;
+    }
+
+    .portf{
+        margin-left: 24px;
+        color: #FFFFFF;
+        font-family: 'Nunito';  
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    .circles{
+        width: 70px;
+        height: 70px;
+    }
+
+    .formob{
+        display: none;
+    }
+
+    .aboutmeall{
+        margin-top: 300px;
+        width: 100%;
+    }
+
+    
+
+    .aboutmeimg{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .about{
+        display: flex;
+        align-items: flex-start;
+    }
+
+
+
+    .since{
+        width: 773px;
+        height: 396px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 33px;
+
+    }
+
+    .me2butmobile{
+        display: none;
+    }
+
+    
+
+
+    .abme{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 95px;
+        width: 235px;
+        height: 95px;  
+        text-align: start;
+    }
+
+    .agename{
+        margin-top: 64px;
+
+    }
+
+    .agename p{
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    .agename span{
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+
+
+    .skillsContact{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .line3{
+        display: none;
+        
+    }
+
+
+    .none{
+        display: block;
+    }
+
+    .circle{
+        display: none;
+    }
+
+    .diffcircle{
+        width: 70px;
+        height: 70px;
+        border: 1px solid #747474;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logosoflanguages{
+        display: grid;
+        grid-template-columns: repeat(3, 70px);
+        row-gap: 24px;
+        column-gap: 32px;
+    }
+
+    .sk{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 95px;
+    }
+
+    .skills{
+        width:137px;
+        height: 94px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .contact{
+        margin-top: 64px;
+    }
+
+    .m{
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    .whatssapp{
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .loc{
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .maill{
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .number{
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .Tbilisi{
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .phoneformob{
+        display: none;
+    }
+
+    .emailmail{
+        display: none;
+    }
+
+
+    .locformob{
+        display: none;
+    }
+
+    .circl{
+        width: 70px;
+        height: 70px;
+    }
+
+
+    .headerport{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 95px;
+    }
+
+    .portfolioss{
+        width: 100%;
+        margin-top: 94px;
+    }
+
+    .flexJ{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 24px;
+    }
+
+    .nones{
+        display: none;
+    }
+
+    .nonemob{
+        display: block;
+    }
+
+    .flexJ h4{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 47px; 
+        width: 250px;  
+        
+    }
+
+    .workinfos{
+        width: 500px;
+        height: 150px;
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    .q{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 95px;
+    }
+
+    .questionss{
+        display: flex;
+        justify-content: space-evenly;
+        width: 1500px;
+    }
+
+    .questionss h1{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 95px;
+    }
+
+    .questionss p{
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    .line5{
+        width: 1400px;
+    }
+
+    footer{
+        display: flex;
+        align-items: center;
+    }
+
+    .twokl{
+        display: block;
+        display: flex;
+        align-items: center;
+    }
+
+    .footerinfos{
+        margin-top: 24px;
+        width: 1400px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footerinfos p{
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+
 }
